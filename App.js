@@ -1,10 +1,20 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, Text, View, Image, ScrollView } from 'react-native';
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+      <Text>Hace mate bobo!!! </Text>
+      <View 
+        style={{backgroundColor: 'red', width: '100%'}}
+      >
+      <ScrollView>
+      <Image
+        
+        source={require('./assets/caballos.jpg')}
+      />
+      </ScrollView>
+      </View>
       <StatusBar style="auto" />
     </View>
   );
