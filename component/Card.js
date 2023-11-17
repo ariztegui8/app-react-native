@@ -12,7 +12,7 @@ const Card = () => {
                 <Text style={{ fontSize: 20, fontWeight: '600' }}>Squirtle</Text>
 
                 <View style={{ gap: 4, flexDirection: 'row', alignItems: 'center' }}>
-                    <Image source={corazon} style={{ width: 20, height: 20, objectFit: 'contain' }} />
+                    <Image source={corazon} style={{ width: 20, height: 20 }} resizeMode='contain' />
                     <Text style={{ fontWeight: 600 }}>39</Text>
                 </View>
             </View>
@@ -22,7 +22,7 @@ const Card = () => {
 
             <View style={{justifyContent: 'center', alignItems: 'center'}}>
                 <View style={{ gap: 8, flexDirection: 'row', borderRadius: 15, alignItems: 'center' , borderWidth: 2, borderColor: 'red', padding: 10, marginBottom: 30, justifyContent: 'center' ,  paddingHorizontal: 20}}>
-                    <Image source={fire} style={{ width: 20, height: 20, objectFit: 'contain' }} />
+                    <Image source={fire} style={{ width: 20, height: 20 }} resizeMode='contain' />
                     <Text style={{ fontWeight: 600 }}>Fire</Text>
                 </View>
             </View>
