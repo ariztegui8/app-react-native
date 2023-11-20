@@ -9,6 +9,8 @@ const DashboardScreen = () => {
   return (
     <View style={styles.container}>
         <Text>DashboardScreen</Text>
+        <Button title='Toogle drawer' onPress={()=> navigation.toggleDrawer()}/>
+        <Button title='Setting' onPress={()=> navigation.jumpTo('Setting')}/>
     </View>
   )
 }
